@@ -23,6 +23,6 @@ This image can be used in Docker. Continue reading for the usage explanation for
     image: rubenfricke/dynamic-curl-cron:1.0.0
     environment:
       - CRON_SCHEDULE=now
-      - CRON_COMMAND=example.com
+      - CURL_COMMAND=example.com
   ```
 
